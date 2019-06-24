@@ -1,0 +1,23 @@
+body
+{
+ background-color:rgb(65, 64, 64);            
+ font-family: "Helvetica";
+ color: rgb(0, 209, 209);
+}
+        
+h1
+{
+ color: rgb(0, 0, 0);
+}
+
+.left_side
+{
+    float: left;
+    width: 25%;
+}
+
+.right_side
+{
+    float: right;
+    width: 25%;
+}
