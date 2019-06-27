@@ -1,2 +1,3 @@
 # WebDevPortfolio
-ebic code skills
+Name: Kyle Nishijima
+Website: https://KNishijima.netlify.com

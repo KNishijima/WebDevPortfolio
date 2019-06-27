@@ -1,23 +1,63 @@
-body
-{
+body {
  background-color:rgb(65, 64, 64);            
  font-family: "Helvetica";
- color: rgb(0, 209, 209);
+ color: rgb(255, 255, 255);
 }
         
-h1
-{
+h1 {
  color: rgb(0, 0, 0);
 }
 
-.left_side
-{
+.left-side {
     float: left;
     width: 25%;
 }
 
-.right_side
-{
+.right-side {
     float: right;
     width: 25%;
 }
+
+h2 ~ a img{
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    background-color: rgb(119, 0, 255);
+    position: relative;
+    width: 100%;
+    height: 61.44px;
+}
+
+ul {
+    margin: 1px auto;
+    padding: 0 20px;
+    margin-bottom: 0;
+
+}
+
+div ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    width: 77px
+}
+
+header a {
+    color: white;
+    display: inline-block;
+    width: 80px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid rgb(65, 64, 64);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: rgb(131, 74, 197);
+}
+
+
