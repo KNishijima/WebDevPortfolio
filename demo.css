@@ -4,10 +4,6 @@ body {
  color: rgb(255, 255, 255);
 }
         
-h1 {
- color: rgb(0, 0, 0);
-}
-
 .left-side {
     float: left;
     width: 25%;
@@ -23,6 +19,7 @@ h2 ~ a img{
     border-radius: 40px;
     width: 200px;
     height: 200px;
+    
 }
 
 header {
@@ -32,32 +29,47 @@ header {
     height: 61.44px;
 }
 
-ul {
+header ul {
     margin: 1px auto;
-    padding: 0 20px;
+    padding: 0;
     margin-bottom: 0;
 
 }
 
 div ul {
     text-align: center;
+    margin: 0 auto;
+    padding: 0;
 }
 
 li {
     display: inline-block;
-    width: 77px
+    width: 85px;
 }
 
 header a {
     color: white;
     display: inline-block;
-    width: 80px;
+    width: 90px;
     text-decoration: none;
     text-align: center;
     border: 1px solid rgb(65, 64, 64);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
     background-color: rgb(131, 74, 197);
 }
 
+header a:hover {
+    color: rgb(209, 208, 208);
+    background-color: rgb(108, 63, 160);
+}
+
+#long-nav {
+    width: 130px;
+}
+header h1 {
+    display: inline-block;
+    text-align: right;
+    margin: 0 auto;
+    width: 700px;
+
+}
 
